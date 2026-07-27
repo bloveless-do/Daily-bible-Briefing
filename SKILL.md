@@ -69,6 +69,14 @@ Facts first in every item. Clean, declarative, no editorializing inside the news
 
 ---
 
+## Delivery
+
+Write the finished brief to `briefs/YYYY-MM-DD.md` in the repository, using today's date (Pacific) for the filename. Create the `briefs/` folder if it does not exist. Commit the brief file, and the `prediction-log.md` update if there is one, and push to a `claude/` branch. The cloud environment is destroyed after each run, so an uncommitted file is lost. The committed file is the deliverable; Brian reads it in the repo. Do not rely on the in-app notification as the delivery mechanism.
+
+Match the format of the worked example below exactly. Structure, spacing, source tags, and the walled-off reflection blocks should look the same every day. Do not redesign the layout run to run.
+
+---
+
 ## Scripture rules
 
 **Hard cap: three Scripture references per brief.** Not per section. Per brief. If four stories seem to call for a verse, pick the three strongest and leave the fourth alone. A verse attached to everything means nothing.
@@ -97,7 +105,7 @@ Brian's own stated position: he is not looking to Scripture to tell him what's n
 - **Tier 2** — mappings with real scholarly support. Meshech and Tubal correspond to the Assyrian Mushki and Tabal in Anatolia (Yamauchi).
 - **Tier 3** — popular identifications with thin evidence, flagged as thin. Rosh as Russia rests largely on sound similarity; most English versions render it "chief prince" rather than as a proper name.
 
-**Prediction log.** Any time the brief says "this suggests X," log it with the date and a falsification condition in `prediction-log.md` at the repository root. Append a new entry; do not overwrite existing entries. If the file does not exist yet, create it. After updating it, commit the change and push to a `claude/` branch so it persists past the run (the cloud environment is destroyed after each run, so an uncommitted file is lost). Review quarterly and grade honestly. This is what converts a system that cannot be wrong into one that can be. It is the single most important rule in this file.
+**Prediction log.** Any time the brief says "this suggests X," log it with the date and a falsification condition in `prediction-log.md` at the repository root. Append a new entry; do not overwrite existing entries. If the file does not exist yet, create it. Commit it in the same push as the brief file (see Delivery). Review quarterly and grade honestly. This is what converts a system that cannot be wrong into one that can be. It is the single most important rule in this file. Most days there will be nothing to log, which is the correct and expected outcome.
 
 ---
 
@@ -117,6 +125,46 @@ Length target: readable on a phone in about three minutes.
 
 ---
 
+## Worked example (match this format)
+
+This is the target format. Copy the structure, spacing, source tags, and the blockquoted reflection style. This example is illustrative of format only; use the real day's news.
+
+```
+# Daily Brief — Wednesday, July 22, 2026
+
+Iran strikes paused a third night; Netanyahu at the White House tomorrow. Seattle festival shooting killed three. Chino Hills sales tax measure headed to the November ballot.
+
+## International
+
+**1. US pauses Iran strikes, Netanyahu meets Trump tomorrow.** The Pentagon paused bombing for a third straight night, tied to Iran's threats against shipping in the Strait of Hormuz. Officials warned continued strikes would strain US munitions stockpiles. Iran says it will hold off retaliation while the pause holds. Netanyahu arrives at the White House Tuesday to press Trump on Iran's nuclear program. (Reuters, Axios)
+
+> *"Why do the nations rage?" (Ps 2:1). The psalm's answer is not a timeline. It ends with the One enthroned unshaken and a blessing on those who take refuge. Read it whole this morning.*
+
+**2. European wildfires still burning.** A wildfire in France's Gironde region remains active. Two major fires in central Spain are near containment ahead of a fourth heat wave. (Reuters)
+
+## National
+
+**3. Seattle food-festival shooting kills three.** A shooting at a Seattle festival killed three and injured several. Police have not announced a motive. (AP)
+
+> *Judges 21:25. Everyone did what was right in his own eyes. The book treats that as the diagnosis, not the punchline.*
+
+## Local and California
+
+**4. Chino Hills sales tax on the November ballot.** The city placed a one-cent sales tax measure on the Nov. 3 ballot. (Champion, unrated local)
+
+**5. Chino Planning Commission rejects battery storage project.** The commission voted down a proposed battery storage facility. (Champion, unrated local)
+
+## Steelman — the other read on the top story
+
+The strongest case against how the Iran campaign has been run: critics argue the pause signals strategic incoherence rather than restraint, that two weeks of strikes without a defined end state burned munitions and credibility for unclear gain, and that inviting Netanyahu mid-pause hands Israel leverage over US policy. (NYT news analysis)
+
+---
+
+*Reflection count: 2 Scripture references. No prophecy claim made; prediction log unchanged.*
+```
+
+---
+
 ## Self-check before delivering
 
 - Did anything from the exclusion list get in? Remove it.
@@ -126,3 +174,5 @@ Length target: readable on a phone in about three minutes.
 - Is every Champion item tagged unrated?
 - Any em-dashes? Remove them.
 - Did I add a claim I did not source? Cut it.
+- Did I write the brief to `briefs/YYYY-MM-DD.md` and commit it? The committed file is the deliverable.
+- Does the layout match the worked example? Do not redesign it.
